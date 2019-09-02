@@ -10,6 +10,7 @@ REPLICAS=$2
 IP=$3
 CONCURRENCY=$4
 
+
 DATE=`date -d "+2 minutes" +"%FT%T %z"`
 
 for (( c=0; c<${REPLICAS}; c++ ))
